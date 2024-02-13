@@ -5,11 +5,6 @@ namespace sampleApp.Test;
 
 public class ProgramUnitTest
 {
-    // [SetUp]
-    // public void Setup()
-    // {
-    // }
-
     [TestCase("", 0, TestName = "Check for empty string and return 0")]
     [TestCase("1", 1, TestName = "Check for only one number and return same number")]
     [TestCase("1,2", 3, TestName = "Check for two numbers and return their addition")]
