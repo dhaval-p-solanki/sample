@@ -1,0 +1,15 @@
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\bin\Debug\net7.0\sampleApp.exe
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\bin\Debug\net7.0\sampleApp.deps.json
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\bin\Debug\net7.0\sampleApp.runtimeconfig.json
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\bin\Debug\net7.0\sampleApp.dll
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\bin\Debug\net7.0\sampleApp.pdb
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\obj\Debug\net7.0\sampleApp.csproj.AssemblyReference.cache
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\obj\Debug\net7.0\sampleApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\obj\Debug\net7.0\sampleApp.AssemblyInfoInputs.cache
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\obj\Debug\net7.0\sampleApp.AssemblyInfo.cs
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\obj\Debug\net7.0\sampleApp.csproj.CoreCompileInputs.cache
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\obj\Debug\net7.0\sampleApp.dll
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\obj\Debug\net7.0\refint\sampleApp.dll
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\obj\Debug\net7.0\sampleApp.pdb
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\obj\Debug\net7.0\sampleApp.genruntimeconfig.cache
+E:\Projects\Learning\GitHubDotNetProject\sampleApp\obj\Debug\net7.0\ref\sampleApp.dll
