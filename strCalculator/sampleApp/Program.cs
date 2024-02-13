@@ -1,4 +1,6 @@
-﻿﻿namespace StringCalculator;
+﻿﻿﻿using System.Runtime.Serialization;
+
+namespace sampleApp;
 
 public static class Program
 {
@@ -21,7 +23,8 @@ public static class Program
         }
         else if (input.CheckInputValueNegative(delimiters))
         {
-            return 0;
+            int[] numbers = ReturnOnlyNumberValues(input, delimiters);
+            throw new NegativesNotAllowedException(numbers.Where(n => n < 0));
         } 
         else
         {
@@ -73,5 +76,24 @@ public static class Program
             .Split(delimiters.ToArray(), StringSplitOptions.RemoveEmptyEntries)
             .Select(int.Parse)
             .ToArray();
+    }
+}
+
+
+
+
+[Serializable]
+public class NegativesNotAllowedException : Exception
+{
+    public NegativesNotAllowedException(IEnumerable<int> negatives) :
+        base($"Negative Values not allowed: {string.Join(", ", negatives)}")
+    { 
+
+    }
+
+    protected NegativesNotAllowedException(SerializationInfo info, StreamingContext context)
+        : base(info, context)
+    { 
+
     }
 }

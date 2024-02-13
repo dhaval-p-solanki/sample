@@ -973,6 +973,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "sampleApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/sampleApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sampleApp.dll": {}
+        }
       }
     }
   },
@@ -3910,6 +3920,11 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "sampleApp/1.0.0": {
+      "type": "project",
+      "path": "../sampleApp/sampleApp.csproj",
+      "msbuildProject": "../sampleApp/sampleApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3918,7 +3933,8 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
-      "coverlet.collector >= 3.1.2"
+      "coverlet.collector >= 3.1.2",
+      "sampleApp >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3951,7 +3967,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projects\\Learning\\GitHubDotNetProject\\sample\\strCalculator\\sampleApp\\sampleApp.csproj": {
+              "projectPath": "E:\\Projects\\Learning\\GitHubDotNetProject\\sample\\strCalculator\\sampleApp\\sampleApp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
